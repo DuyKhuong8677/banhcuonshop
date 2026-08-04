@@ -1,6 +1,6 @@
 # 🥢 Banh Cuon Shop
 
-> Website bán bánh cuốn online.
+> Website giới thiệu các sản phẩm có trong  Quỳnh Chi - Bánh cuốn Tây Sơn
 
 ## 📁 Project Structure
 
