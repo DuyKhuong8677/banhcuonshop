@@ -198,7 +198,7 @@ nav a.active {
   margin-bottom: 4px;
 }
 
-.mo-ta.mo-rong {
+.san-pham-item p.mo-ta.mo-rong {
   display: block;
   -webkit-line-clamp: unset;
   line-clamp: unset;
