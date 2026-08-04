@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Liên hệ - Quỳnh Chi - Bánh Cuốn Tây Sơn</title>
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
@@ -15,7 +16,16 @@
     <nav>
       <ul>
         <li><a href="../index.html">Trang chủ</a></li>
-        <li><a href="san-pham.html">Sản phẩm</a></li>
+        <li class="co-submenu">
+          <a href="san-pham.html">Sản phẩm</a>
+          <ul class="submenu">
+            <li><a href="san-pham.html#banh-cuon">Bánh cuốn</a></li>
+            <li><a href="san-pham.html#bun-kho">Bún khô Tây Sơn</a></li>
+            <li><a href="san-pham.html#dac-san">Đặc sản Bình Định</a></li>
+            <li><a href="san-pham.html#mon-them">Món thêm</a></li>
+            <li><a href="san-pham.html#nuoc-giai-khat">Nước giải khát</a></li>
+          </ul>
+        </li>
         <li><a href="gioi-thieu.html">Giới thiệu</a></li>
         <li><a href="lien-he.html" class="active">Liên hệ</a></li>
       </ul>
@@ -23,9 +33,61 @@
   </header>
 
   <main>
+    <div class="background-trang-tri">
+      <h2>Liên hệ với chúng tôi</h2>
+    </div>
+
     <section id="lien-he">
-      <h2>Liên hệ</h2>
-      <p>Nội dung đang được cập nhật.</p>
+      <div class="lien-he-luoi">
+        <div class="lien-he-thong-tin">
+          <h3>Thông tin liên hệ</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Địa chỉ: 50/4 Bình Giã, Tân Bình, Tp.HCM</p>
+          <p><i class="fa-solid fa-phone"></i> Số điện thoại: 0986822041</p>
+
+          <h3>Giờ mở cửa</h3>
+          <table class="bang-gio-mo-cua">
+            <tbody>
+              <tr>
+                <td>Thứ 2 - Thứ 6</td>
+                <td>10:00 - 23:30</td>
+              </tr>
+              <tr>
+                <td>Thứ 7</td>
+                <td>10:00 - 23:00</td>
+              </tr>
+              <tr>
+                <td>Chủ nhật</td>
+                <td>10:00 - 19:00</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Kết nối với chúng tôi</h3>
+          <div class="mang-xa-hoi">
+            <a href="https://www.facebook.com/quynhchi222" target="_blank" rel="noopener" class="nut-mxh nut-facebook" aria-label="Facebook Fanpage">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://zalo.me/0986822041" target="_blank" rel="noopener" class="nut-mxh nut-zalo" aria-label="Zalo">
+              <img src="../images/imageszalo-icon.jpg" alt="Zalo">
+            </a>
+            <a href="https://www.tiktok.com/@quynhchi_1505" target="_blank" rel="noopener" class="nut-mxh nut-tiktok" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="lien-he-ban-do">
+          <iframe
+            src="https://www.google.com/maps?q=50/4+B%C3%ACnh+Gi%C3%A3,+T%C3%A2n+B%C3%ACnh,+Tp.HCM&output=embed"
+            width="100%"
+            height="350"
+            style="border: 0"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Bản đồ vị trí quán Quỳnh Chi - Bánh Cuốn Tây Sơn">
+          </iframe>
+        </div>
+      </div>
     </section>
   </main>
 

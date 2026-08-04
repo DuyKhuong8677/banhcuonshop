@@ -62,6 +62,47 @@ nav a.active {
   border-bottom: 2px solid #ffd27f;
 }
 
+/* ===== Dropdown menu "Sản phẩm" ===== */
+.co-submenu {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  background-color: #9b3620;
+  padding: 8px 0;
+  margin: 0;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  z-index: 500;
+  gap: 0;
+}
+
+.co-submenu:hover .submenu {
+  display: flex;
+}
+
+.submenu li {
+  width: 100%;
+}
+
+.submenu a {
+  display: block;
+  padding: 10px 20px;
+  white-space: nowrap;
+  border-bottom: none;
+}
+
+.submenu a:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-bottom: none;
+}
+
 /* ===== Banner slogan ===== */
 .slogan {
   width: 100%;
@@ -602,6 +643,198 @@ nav a.active {
   margin: 0;
 }
 
+/* ===== Trang Giới thiệu ===== */
+#gioi-thieu {
+  padding: 48px 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.gioi-thieu-cau-chuyen {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 56px;
+}
+
+.gioi-thieu-cau-chuyen img {
+  flex: 1 1 380px;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+.gioi-thieu-noi-dung {
+  flex: 1 1 380px;
+}
+
+.gioi-thieu-noi-dung h3 {
+  color: #b8441f;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.gioi-thieu-noi-dung p {
+  color: #4a2c1d;
+  margin-bottom: 16px;
+}
+
+.vi-sao-chon h3 {
+  text-align: center;
+  color: #b8441f;
+  font-size: 1.8rem;
+  margin-bottom: 32px;
+}
+
+.vi-sao-luoi {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.vi-sao-item {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.vi-sao-item:hover {
+  transform: translateY(-6px);
+}
+
+.vi-sao-icon {
+  display: block;
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.vi-sao-item h4 {
+  color: #7a2e1d;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+.vi-sao-item p {
+  color: #6b4a3a;
+  font-size: 0.9rem;
+}
+
+/* ===== Trang Liên hệ ===== */
+#lien-he {
+  padding: 48px 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.lien-he-luoi {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.lien-he-thong-tin {
+  flex: 1 1 380px;
+}
+
+.lien-he-thong-tin h3 {
+  color: #b8441f;
+  font-size: 1.3rem;
+  margin: 24px 0 12px;
+}
+
+.lien-he-thong-tin h3:first-child {
+  margin-top: 0;
+}
+
+.lien-he-thong-tin p {
+  color: #4a2c1d;
+  margin-bottom: 10px;
+}
+
+.lien-he-thong-tin p i {
+  color: #b8441f;
+  width: 20px;
+  text-align: center;
+}
+
+.bang-gio-mo-cua {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bang-gio-mo-cua td {
+  padding: 10px 4px;
+  border-bottom: 1px solid #f0ddc8;
+  color: #4a2c1d;
+}
+
+.bang-gio-mo-cua tr td:first-child {
+  font-weight: 600;
+  color: #7a2e1d;
+}
+
+.bang-gio-mo-cua tr td:last-child {
+  text-align: right;
+}
+
+.mang-xa-hoi {
+  display: flex;
+  gap: 16px;
+}
+
+.nut-mxh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 1.4rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.nut-mxh:hover {
+  transform: translateY(-4px);
+  opacity: 0.85;
+}
+
+.nut-facebook {
+  background-color: #1877f2;
+}
+
+.nut-tiktok {
+  background-color: #000000;
+}
+
+.nut-zalo {
+  background-color: #ffffff;
+  border: 2px solid #0068ff;
+}
+
+.nut-zalo img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.lien-he-ban-do {
+  flex: 1 1 380px;
+}
+
+.lien-he-ban-do iframe {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 /* ===== Footer ===== */
 footer {
   background-color: #4a2c1d;
@@ -632,10 +865,32 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .gioi-thieu-cau-chuyen {
+    flex-direction: column;
+  }
+
+  .gioi-thieu-cau-chuyen img {
+    max-width: 100%;
+  }
+
+  .vi-sao-luoi {
+    grid-template-columns: 1fr;
+  }
+
+  .lien-he-luoi {
+    flex-direction: column;
+  }
+
   #khung-gio-hang {
     width: 100%;
     max-width: 100%;
     right: -100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .vi-sao-luoi {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
