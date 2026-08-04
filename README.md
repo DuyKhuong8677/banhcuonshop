@@ -1,21 +1,21 @@
-# banhcuonshop
-Website bán bánh cuốn online - giới thiệu sản phẩm
+# 🥢 Banh Cuon Shop
 
-banhcuonshop/
+> Website bán bánh cuốn online.
 
-├── index.html          # Trang chủ
+## 📁 Project Structure
 
-├── README.md           # (đã có sẵn)
-
-├── css/
-│   └── style.css        # File CSS chính
-
-├── js/
-│   └── script.js         # File JS chính (nếu cần hiệu ứng, menu, v.v.)
-
-├── images/
-│   └── (ảnh sản phẩm, logo...)
-
-└── pages/               # (tùy chọn, nếu có nhiều trang)
-    ├── about.html        # Giới thiệu
-    └── contact.html       # Liên hệ / đặt hàng
+```text
+📦 banhcuonshop
+├── 📄 index.html
+├── 📄 README.md
+├── 📂 css
+│   └── 🎨 style.css
+├── 📂 js
+│   └── ⚙️ script.js
+├── 📂 images
+│   ├── 🖼️ logo.png
+│   └── 🖼️ banner.jpg
+└── 📂 pages
+    ├── 📄 about.html
+    └── 📄 contact.html
+```
