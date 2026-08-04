@@ -18,8 +18,19 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #7a2e1d;
+  background-color: #9b3620;
   padding: 16px 32px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  height: 55px;
+  width: auto;
 }
 
 .logo h1 {
@@ -102,7 +113,7 @@ nav a.active {
 }
 
 .san-pham-item h4 {
-  color: #7a2e1d;
+  color: #31c02c;
   font-size: 1.05rem;
   margin-bottom: 6px;
 }
@@ -121,9 +132,28 @@ nav a.active {
 
 .san-pham-item .gia {
   font-weight: 700;
-  color: #d94f1e;
+  color: #d80c16;
   font-size: 1.1rem;
   margin-bottom: 0;
+}
+
+.btn-zalo {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0068ff;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-zalo:hover {
+  background-color: #0052cc;
 }
 
 /* ===== Footer ===== */
