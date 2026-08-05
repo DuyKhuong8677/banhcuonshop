@@ -106,7 +106,7 @@ nav a.active {
 /* ===== Banner slogan ===== */
 .slogan {
   width: 100%;
-  max-height: 400px;
+  height: 400px;
   overflow: hidden;
 }
 
@@ -859,6 +859,10 @@ footer {
 
   .logo h1 {
     font-size: 1.2rem;
+  }
+
+  .slogan {
+    height: 220px;
   }
 
   .san-pham-luoi {
