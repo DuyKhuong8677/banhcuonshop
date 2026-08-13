@@ -78,6 +78,7 @@ const DANH_MUC_SAN_PHAM = [
       },
       {
         ten: "Chả cá mỏng cấp đông (500gr)",
+        anh: "Cha-ca-cuon-rau-ram.jpg",
         moTa: "Chả cá mỏng chiên cần cấp đông để bảo quản được lâu, có thể ăn mì tôm, bún, chiên cuốn rau răm... kèm tương ớt.",
         gia: 75000,
       },
